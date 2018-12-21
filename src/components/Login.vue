@@ -73,7 +73,7 @@ export default {
                 type: 'success',
                 duration: 1000
               })
-              // 把后台办法的token存起来
+              // 把后台颁发的token存起来
               localStorage.setItem('token', res.data.data.token)
 
               // 跳转到Home组件
